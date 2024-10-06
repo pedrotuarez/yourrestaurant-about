@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/yourrestaurant-about/static/css/main.bff07a42.css",
+    "main.js": "/yourrestaurant-about/static/js/main.7944e74e.js",
+    "static/js/453.64516e78.chunk.js": "/yourrestaurant-about/static/js/453.64516e78.chunk.js",
+    "static/media/Pacifico-Regular.ttf": "/yourrestaurant-about/static/media/Pacifico-Regular.93cd59fff879b8bdd57d.ttf",
+    "static/media/Montserrat-Regular.ttf": "/yourrestaurant-about/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Montserrat-Bold.ttf": "/yourrestaurant-about/static/media/Montserrat-Bold.079ca05d3ded9bc107ab.ttf",
+    "static/media/fa-brands-400.woff2": "/yourrestaurant-about/static/media/fa-brands-400.6563814eb8bcc493b26b.woff2",
+    "static/media/banneryr2.jpg": "/yourrestaurant-about/static/media/banneryr2.e7c330d38831defb3a57.jpg",
+    "static/media/fa-solid-900.woff2": "/yourrestaurant-about/static/media/fa-solid-900.ea995b6e6d0be9cd4319.woff2",
+    "static/media/n1.jpg": "/yourrestaurant-about/static/media/n1.111ba6bc0f772826453d.jpg",
+    "static/media/n3.jpg": "/yourrestaurant-about/static/media/n3.921b7538c219ad0d9c55.jpg",
+    "static/media/n2.jpg": "/yourrestaurant-about/static/media/n2.3eec51c9ee71950e9de6.jpg",
+    "static/media/fa-regular-400.woff2": "/yourrestaurant-about/static/media/fa-regular-400.4e988e05601bf81ee2b0.woff2",
+    "index.html": "/yourrestaurant-about/index.html",
+    "main.bff07a42.css.map": "/yourrestaurant-about/static/css/main.bff07a42.css.map",
+    "main.7944e74e.js.map": "/yourrestaurant-about/static/js/main.7944e74e.js.map",
+    "453.64516e78.chunk.js.map": "/yourrestaurant-about/static/js/453.64516e78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bff07a42.css",
+    "static/js/main.7944e74e.js"
+  ]
+}
