@@ -1,0 +1,152 @@
+/* CSS About */
+
+.pa-container {
+	width: 100%;
+	margin: auto;
+}
+.pa-container-flex {
+	display: flex;
+  flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.pa-column {
+	width: 100%;
+}
+.pa-column-33 {
+  width: 32%;
+}
+
+/* Banner */
+
+.pa-banner {
+	position: relative;
+	margin-top: -150px;
+  z-index: -1;
+}
+.pa-banner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.6);
+	z-index: 1;
+	top: 0;
+}
+.pa-banner-img {
+	width: 100%;
+	height: 105vh;
+	object-fit: cover;
+}
+.pa-banner-content {
+	width: 90%;
+	color: white;
+	text-align: center;
+	position: absolute;
+	z-index: 1500;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+/* Main */
+
+.pa-main {
+  padding-bottom: 15px;
+}
+
+.pa-group-color .pa-container {
+	background: #de423a;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+.pa-main-title {
+	margin: 15px 0;
+	font-size: 1.8em;
+	font-family: 'Pacifico', cursive;
+	font-weight: 100;
+}
+
+.pa-group {
+  margin-bottom: 15px;
+}
+.pa-group-title {
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	font-weight: 100;
+	font-size: 1.8em;
+	margin: 30px;
+}
+
+.pa-our-team {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.pa-our-team .pa-container-flex {
+	align-items: flex-start;
+}
+.pa-our-team-title {
+	font-family: 'Pacifico', cursive;
+	color: #de423a;
+	font-weight: bold;
+	font-size: 1.8em;
+	margin-bottom: 10px;
+}
+.pa-our-team-img {
+	object-fit: cover;
+	border-radius: 50%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+.pa-out-team-txt {
+	padding: 10px;
+}
+
+
+@media screen and (min-width: 480px) {
+	.pa-our-team-img {
+		width: 150px;
+	  height: 150px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.pa-our-team-img {
+		width: 220px;
+		height: 220px;
+	}
+  .pa-banner-content {
+		font-size: 3em;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+  .pa-container {
+		width: 950px;
+	}
+  .pa-group-color .pa-container {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		padding: 20px;
+	}
+	.pa-our-team-img {
+		width: 310px;
+		height: 310px;
+	}
+	.pa-our-team .pa-group-title {
+		font-size: 2.5em;
+	}
+	.pa-our-team-title {
+		font-size: 2.1em;
+	}
+}
+
+@media screen and (min-width: 1600px) {
+	.pa-our-team-img {
+		width: 330px;
+		height: 330px;
+	}
+}
